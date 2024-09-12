@@ -1,25 +1,25 @@
 {
-  "title": "Standard page",
+  "title": "Standard page (XR)",
   "description": "Standard list page where you can add multiple library element .",
   "majorVersion": 1,
-  "minorVersion": 5,
-  "patchVersion": 15,
+  "minorVersion": 9,
+  "patchVersion": 0,
   "runnable": 0,
-  "author": "Joubel",
+  "author": "Joubel, XR Energy",
   "license": "MIT",
-  "machineName": "H5P.StandardPage",
+  "machineName": "H5P.StandardPageXR",
   "coreApi": {
     "majorVersion": 1,
     "minorVersion": 19
   },
   "preloadedCss": [
     {
-      "path": "standard-page.css"
+      "path": "standard-page-xr.css"
     }
   ],
   "preloadedJs": [
     {
-      "path": "standard-page.js"
+      "path": "standard-page-xr.js"
     }
   ],
   "preloadedDependencies": [
@@ -37,6 +37,16 @@
       "machineName": "H5P.TextInputField",
       "majorVersion": 1,
       "minorVersion": 2
+    },
+    {
+      "machineName": "H5P.CheckboxList",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "H5P.DropdownField",
+      "majorVersion": 1,
+      "minorVersion": 0
     }
   ]
 }
